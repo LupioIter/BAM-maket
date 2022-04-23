@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: 
+        "1fr 1fr";
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.button-cart {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 115px;
+    height: 38px;
+    cursor:pointer;
+    border: none;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding-left: 125px;
+}
+
+.content_h1 {
+    display: grid;
+    grid-area: 1/1/2/4;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.ill {
+    padding-bottom: 30px;
+}
+
+.text {
+    padding-bottom: 50px;
+}
+
+.h {
+    padding-bottom: 20px;
+
+}
+
+.news-form {
+    display: grid;
+    align-content:flex-start;
+    height: 233px;
+    width: 365px;
+    border-radius: 0px;
+    background: #EC615B;
+}
+
+.news {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: #EC615B;
+}
+
+.email {
+    padding-left: 15px;
+    width: 323px;
+    min-height: 50px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.button-mail {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 25px;
+    cursor:pointer;
+    border: none;
+    background: #EC615B;
+}
+
+.button-mail-svg {
+    background: #EC615B;
+}
+
+.content_navbar {
+    grid-area: 3/1/4/3;
+    width: 550px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.navbar_a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar :hover {
+    text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
